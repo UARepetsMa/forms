@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>ProPlan</title>
+</head>
+<body>
+    <header>
+        <img src='img/header.PNG'alt="purina-proplan-logo">
+        <h1>Beställ valppaket</h1>
+    </header>
+    <form id="main-form">
+        <div class="form-row">
+            <div class="form-group magic">
+                <label for="input1">Dagens datum</label>
+                <input type="text" id="input1" class="form-input">
+            </div>
+            <div class="form-group magic">
+                <label for="input2">Telefonnr</label>
+                <input type="text" id="input2" class="form-input">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="input3">Namn</label>
+                <input type="text" id="input3" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="input4">Kennelnamn</label>
+                <input type="text" id="input4" class="form-input">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="input5">Adress</label>
+                <input type="text" id="input5" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="input6">Antal valpar</label>
+                <input type="text" id="input6" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="input7">Födelsedatum</label>
+                <input type="text" id="input7" class="form-input">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="input8">Postnr</label>
+                <input type="text" id="input8" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="input9">Ort</label>
+                <input type="text" id="input9" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="input0">Ras</label>
+                <input type="text" id="input0" class="form-input">
+            </div>
+        </div>
+    </form>
+    <section>
+        <div>
+            <img src="img/product.PNG" alt="Dog food bag">
+            <img src="img/product.PNG" alt="Dog food bag">
+            <p>SMALL & MINI</p>
+            <form>
+                <input type="checkbox" name="proplan" class="product" id="optiStart-small">
+                <label for="optiStart-small">Pro Plan OptiStart Puppy<br>12272132</label><br>
+                <input type="checkbox" name="proplan" class="product" id="optiDerma-small">
+                <label for="optiDerma-small">Pro Plan OptiDerma Puppy<br>12272619</label>
+            </form>
+        </div>
+        <div>
+            <img src="img/product.PNG" alt="Dog food bag">
+            <img src="img/product.PNG" alt="Dog food bag">
+            <img src="img/product.PNG" alt="Dog food bag">
+            <p>MEDIUM</p>
+            <form>
+                <input type="checkbox" name="proplan" class="product" id="optiStart-medium">
+                <label for="optiStart-medium">Pro Plan OptiStart Puppy<br>12272214</label><br>
+                <input type="checkbox" name="proplan" class="product" id="optiDerma-medium">
+                <label for="optiDerma-medium">Pro Plan OptiDerma Puppy<br>12272213</label><br>
+                <input type="checkbox" name="proplan" class="product" id="optiDigest-medium">
+                <label for="optiDigest-medium">Pro plan OptiDigest Puppy<br>12278099</label>
+            </form>
+        </div>
+        <div>
+            <img src="img/product.PNG" alt="Dog food bag">
+            <p>LARGE ATHLETIC</p>
+            <form>
+                <input type="checkbox" name="proplan" class="product" id="optiStart-large-at">
+                <label for="optiStart-large-at">Pro Plan OptiStart Puppy<br>12272432</label><br>
+            </form>
+        </div>
+          <div>
+            <img src="img/product.PNG" alt="Dog food bag">
+            <p>LARGE ROBUST</p>
+            <form>
+                <input type="checkbox" name="proplan" class="product" id="optiStart-large-ro">
+                <label for="optiStart-large-ro">Pro Plan OptiStart Puppy<br>12272431</label><br>
+            </form>
+        </div>
+    
+    </section>
+    <p>Dina valpsäckar blir levererade till adressen du uppger ovan.<br>
+    Skicka din beställning till: pppbc@vetzoo.se<br>
+    Lycka till med dina valpar och nya valpköpare!</p>
+    <p>konsumentkontakt@purina.nestle.com</p>
+
+    <footer>
+         <img src='img/footer.PNG'>
+    </footer>
+
+    <script type="text/javascript">
+    $('.product').on('change', function() {
+        $('.product').not(this).prop('checked', false);  
+    });
+    </script>
+</body>
+</html>

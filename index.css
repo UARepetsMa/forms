@@ -1,0 +1,57 @@
+/* :root {
+    background-color: darkolivegreen;
+}
+p, h1, label {
+    color: white;
+} 
+#main-form label {
+    color: black;
+} */
+
+* {
+    box-sizing: border-box;
+}
+#main-form label {
+    display: inline-block;
+}
+
+.form-input {
+    display: block;
+}
+
+.form-row {
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+#main-form div {
+    margin: 5px;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+@media (min-width: 768px) {
+.magic {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
