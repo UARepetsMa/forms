@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <title>ProPlan</title>
 </head>
-<body>
+<body class="body-site">
     <header>
         <img src='img/header.PNG'alt="purina-proplan-logo">
         <h1>Beställ valppaket</h1>
@@ -33,7 +33,7 @@
                 <input type="text" id="input4" class="form-input">
             </div>
         </div>
-        <div class="form-row">
+        <div class="form-row2">
             <div class="form-group">
                 <label for="input5">Adress</label>
                 <input type="text" id="input5" class="form-input">
@@ -47,7 +47,7 @@
                 <input type="text" id="input7" class="form-input">
             </div>
         </div>
-        <div class="form-row">
+        <div class="form-row3">
             <div class="form-group">
                 <label for="input8">Postnr</label>
                 <input type="text" id="input8" class="form-input">
@@ -63,50 +63,55 @@
         </div>
     </form>
     <section>
-        <div>
+        <div class="check-form">
             <img src="img/product.PNG" alt="Dog food bag">
             <img src="img/product.PNG" alt="Dog food bag">
             <p>SMALL & MINI</p>
-            <form>
-                <input type="checkbox" name="proplan" class="product" id="optiStart-small">
-                <label for="optiStart-small">Pro Plan OptiStart Puppy<br>12272132</label><br>
-                <input type="checkbox" name="proplan" class="product" id="optiDerma-small">
-                <label for="optiDerma-small">Pro Plan OptiDerma Puppy<br>12272619</label>
-            </form>
+                <label class="checkbox">
+                    <input type="checkbox" class="product">
+                    <span>Pro Plan OptiStart Puppy<br>12272132</span>
+                </label><br>
+                <label class="checkbox">
+                    <input type="checkbox" class="product">
+                    <span>Pro Plan OptiDerma Puppy<br>12272619</span>
+                </label>
         </div>
-        <div>
+        <div class="check-form1">
             <img src="img/product.PNG" alt="Dog food bag">
             <img src="img/product.PNG" alt="Dog food bag">
             <img src="img/product.PNG" alt="Dog food bag">
             <p>MEDIUM</p>
-            <form>
-                <input type="checkbox" name="proplan" class="product" id="optiStart-medium">
-                <label for="optiStart-medium">Pro Plan OptiStart Puppy<br>12272214</label><br>
-                <input type="checkbox" name="proplan" class="product" id="optiDerma-medium">
-                <label for="optiDerma-medium">Pro Plan OptiDerma Puppy<br>12272213</label><br>
-                <input type="checkbox" name="proplan" class="product" id="optiDigest-medium">
-                <label for="optiDigest-medium">Pro plan OptiDigest Puppy<br>12278099</label>
-            </form>
+            <label class="checkbox">
+                <input type="checkbox" class="product">
+                <span>Pro Plan OptiStart Puppy<br>12272214</span>
+            </label><br>
+            <label class="checkbox">
+                <input type="checkbox" class="product">
+                <span>Pro Plan OptiDerma Puppy<br>12272213</span>
+            </label><br>
+            <label class="checkbox">
+                <input type="checkbox" class="product">
+                <span>Pro Plan OptiDigest Puppy<br>12278099</span>
+            </label>
         </div>
         <div>
             <img src="img/product.PNG" alt="Dog food bag">
             <p>LARGE ATHLETIC</p>
-            <form>
-                <input type="checkbox" name="proplan" class="product" id="optiStart-large-at">
-                <label for="optiStart-large-at">Pro Plan OptiStart Puppy<br>12272432</label><br>
-            </form>
+            <label class="checkbox">
+                <input type="checkbox" class="product">
+                <span>Pro Plan OptiStart Puppy<br>12272432</span>
+            </label><br>
         </div>
-          <div>
+        <div>
             <img src="img/product.PNG" alt="Dog food bag">
             <p>LARGE ROBUST</p>
-            <form>
-                <input type="checkbox" name="proplan" class="product" id="optiStart-large-ro">
-                <label for="optiStart-large-ro">Pro Plan OptiStart Puppy<br>12272431</label><br>
-            </form>
+            <label class="checkbox">
+                <input type="checkbox" class="product">
+                <span>Pro Plan OptiStart Puppy<br>12272431</span>
+            </label>
         </div>
-    
     </section>
-    <p>Dina valpsäckar blir levererade till adressen du uppger ovan.<br>
+    <p class='info-box'>Dina valpsäckar blir levererade till adressen du uppger ovan.<br>
     Skicka din beställning till: pppbc@vetzoo.se<br>
     Lycka till med dina valpar och nya valpköpare!</p>
     <p>konsumentkontakt@purina.nestle.com</p>
